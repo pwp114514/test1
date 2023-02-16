@@ -47,9 +47,8 @@ class Main extends Sprite
 	public static function main():Void
 	{
 		Lib.current.addChild(new Main());
+		SUtil.uncaughtErrorHandler();
 	}
-
-	SUtil.uncaughtErrorHandler();
 	
 	public function new()
 	{
